@@ -2,7 +2,8 @@
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import PhilosophySection from "@/components/PhilosophySection";
-import ProjectsSection from "@/components/ProjectsSection"; // Import the new section
+import ProjectsSection from "@/components/ProjectsSection";
+import TeamSection from "@/components/TeamSection"; // Import the new Team section
 
 const Index = () => {
   return (
@@ -11,8 +12,9 @@ const Index = () => {
         <HeroSection />
         <ServicesSection />
         <PhilosophySection />
-        <ProjectsSection /> {/* Add the new section here */}
-        {/* Placeholder for more sections like Team, Contact Form etc. */}
+        <ProjectsSection />
+        <TeamSection /> {/* Add the new Team section here */}
+        {/* Placeholder for more sections like Contact Form etc. */}
         <section className="py-16 md:py-24 bg-brand-light-gray">
             <div className="container max-w-screen-xl mx-auto px-6 text-center">
                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-brand-deep-blue mb-4 animate-fade-in-up">Ready to Elevate Your Digital Presence?</h2>
@@ -35,4 +37,3 @@ const Index = () => {
 };
 
 export default Index;
-
