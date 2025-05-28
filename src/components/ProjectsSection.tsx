@@ -10,21 +10,21 @@ const projects = [
     category: "Web Development & Corporate Design",
     description: "Comprehensive corporate website for Zenith East Africa, building impactful businesses and brands across the continent with modern strategic consulting services.",
     imageUrl: "/lovable-uploads/996bead4-2818-4cb2-a70b-4b580fdc7d8d.png",
-    link: "/projects/zenith",
+    link: "https://www.zenitheastafrica.com/",
   },
   {
     title: "KibokoDAO Web3 Community",
     category: "Blockchain Development & Web3",
     description: "Revolutionary decentralized platform representing African communities in global Web3 ecosystem, featuring DAO governance and collaborative tools.",
     imageUrl: "/lovable-uploads/6b7f7b4a-8720-4fd1-b6a9-bdc8264b2168.png",
-    link: "/projects/kibokodao",
+    link: "https://www.kibokodao.org/",
   },
   {
     title: "Dable Properties Real Estate",
     category: "Full-Stack Development & PropTech",
     description: "Advanced real estate platform with property listings, virtual tours, and integrated payment systems for prime locations near KAG University.",
     imageUrl: "/lovable-uploads/78d9727b-f752-479c-ad6a-04c010886f76.png",
-    link: "/projects/dable-properties",
+    link: "https://dableproperties.co.ke/",
   },
 ];
 
@@ -65,8 +65,10 @@ const ProjectsSection = () => {
                   </p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
-                  <Button variant="link" className="text-brand-deep-blue p-0 h-auto hover:text-brand-gold group/link">
-                    View Case Study <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/link:translate-x-1" />
+                  <Button variant="link" className="text-brand-deep-blue p-0 h-auto hover:text-brand-gold group/link" asChild>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      View Case Study <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/link:translate-x-1" />
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>

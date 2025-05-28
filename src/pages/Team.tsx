@@ -39,42 +39,6 @@ const teamMembers = [
       github: "#"
     },
   },
-  {
-    name: "Zara Mwangi",
-    role: "UX Research Specialist",
-    bio: "Human-centered design expert focused on creating intuitive interfaces for diverse African communities and contexts.",
-    imageUrl: "https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=800&auto=format&fit=crop",
-    location: "TRM Roysambu, Nairobi",
-    socials: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#"
-    },
-  },
-  {
-    name: "Chidi Okafor",
-    role: "Blockchain Developer",
-    bio: "Fintech specialist building decentralized solutions for financial inclusion and digital identity across the continent.",
-    imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=800&auto=format&fit=crop",
-    location: "TRM Roysambu, Nairobi",
-    socials: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#"
-    },
-  },
-  {
-    name: "Kesi Nakato",
-    role: "AI/ML Engineer",
-    bio: "Machine learning expert developing AI solutions for healthcare, agriculture, and education tailored to African contexts.",
-    imageUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop",
-    location: "TRM Roysambu, Nairobi",
-    socials: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#"
-    },
-  },
 ];
 
 const Team = () => {
