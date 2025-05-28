@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Globe, Smartphone, Wifi } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -83,6 +82,12 @@ const projectCategories = [
     title: "Blockchain & Advanced Tech",
     color: "from-purple-500 to-purple-700",
     projects: [
+      {
+        title: "School Food & Time Management System",
+        description: "Innovative NFC-enabled system for school cafeterias combining contactless payment, meal tracking, and schedule management. NFC (Near Field Communication) technology allows students to simply tap their wristband or card to purchase meals, track nutrition, and manage their daily schedules seamlessly.",
+        imageUrl: "/lovable-uploads/687e496d-59ec-4356-97b4-5104034cb778.png",
+        technologies: ["NFC Technology", "IoT", "React", "Time Management", "Contactless Payment"]
+      },
       {
         title: "KibokoDAO Web3 Platform",
         description: "Decentralized platform representing African communities in global Web3 ecosystem, featuring DAO governance and community collaboration tools.",
