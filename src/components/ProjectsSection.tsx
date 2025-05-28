@@ -5,25 +5,25 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Zenith Luxury E-commerce Platform",
-    category: "Web Development & UI/UX Design",
-    description: "A bespoke e-commerce solution for a high-end fashion retailer, focusing on a seamless user experience and opulent aesthetics. Integrated advanced inventory management and personalized shopping features.",
-    imageUrl: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1200&auto=format&fit=crop", // Placeholder image
+    title: "Zenith East Africa Corporate Platform",
+    category: "Web Development & Corporate Design",
+    description: "Comprehensive corporate website for Zenith East Africa, building impactful businesses and brands across the continent with modern strategic consulting services.",
+    imageUrl: "/lovable-uploads/996bead4-2818-4cb2-a70b-4b580fdc7d8d.png",
     link: "/projects/zenith",
   },
   {
-    title: "Nova Financial Analytics Dashboard",
-    category: "Software Development & Data Visualization",
-    description: "Developed a sophisticated financial analytics dashboard for an investment firm, providing real-time data insights and predictive modeling capabilities with an intuitive interface.",
-    imageUrl: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1200&auto=format&fit=crop", // Placeholder image (using hero image as temp)
-    link: "/projects/nova-financial",
+    title: "KibokoDAO Web3 Community",
+    category: "Blockchain Development & Web3",
+    description: "Revolutionary decentralized platform representing African communities in global Web3 ecosystem, featuring DAO governance and collaborative tools.",
+    imageUrl: "/lovable-uploads/6b7f7b4a-8720-4fd1-b6a9-bdc8264b2168.png",
+    link: "/projects/kibokodao",
   },
   {
-    title: "Aura Wellness Mobile App",
-    category: "Mobile App Development & UI/UX Design",
-    description: "Designed and built a cross-platform mobile application for a luxury wellness brand, featuring guided meditations, personalized programs, and seamless booking integrations.",
-    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop", // Placeholder image
-    link: "/projects/aura-wellness",
+    title: "Dable Properties Real Estate",
+    category: "Full-Stack Development & PropTech",
+    description: "Advanced real estate platform with property listings, virtual tours, and integrated payment systems for prime locations near KAG University.",
+    imageUrl: "/lovable-uploads/78d9727b-f752-479c-ad6a-04c010886f76.png",
+    link: "/projects/dable-properties",
   },
 ];
 

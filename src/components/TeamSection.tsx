@@ -4,9 +4,9 @@ import { Linkedin, Twitter, Github } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Kwame Asante",
-    role: "Lead Software Architect",
-    bio: "Visionary architect with expertise in blockchain and AI solutions. Leading Africa's digital transformation with innovative system designs.",
+    name: "Mark Paul",
+    role: "Frontend & UI/UX Designer",
+    bio: "Creative frontend developer and UI/UX specialist crafting beautiful, user-centered digital experiences with modern design principles.",
     imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",
@@ -15,9 +15,9 @@ const teamMembers = [
     },
   },
   {
-    name: "Amara Okonkwo",
-    role: "IoT Solutions Director",
-    bio: "Hardware and software integration expert specializing in smart agriculture and urban planning systems across East Africa.",
+    name: "Emmanuel Maina",
+    role: "Frontend & IoT Solutions Developer",
+    bio: "Versatile developer bridging frontend technologies with IoT hardware integration, creating seamless digital-physical experiences.",
     imageUrl: "https://images.unsplash.com/photo-1520466809213-7b9a56db9266?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",
@@ -26,9 +26,9 @@ const teamMembers = [
     },
   },
   {
-    name: "Sekou Diallo",
-    role: "Mobile Innovation Lead",
-    bio: "Mobile-first developer creating inclusive apps for emerging markets with expertise in offline-first architecture and accessibility.",
+    name: "Ian Warutere",
+    role: "Fullstack Developer",
+    bio: "Complete stack engineer building robust applications from database to user interface, ensuring scalable and maintainable solutions.",
     imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",

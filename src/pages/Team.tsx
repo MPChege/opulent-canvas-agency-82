@@ -4,11 +4,11 @@ import { Linkedin, Twitter, Github } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Kwame Asante",
-    role: "Lead Software Architect",
-    bio: "Visionary architect with 10+ years experience building scalable systems. Pioneer in blockchain and AI solutions across Africa.",
+    name: "Mark Paul",
+    role: "Frontend & UI/UX Designer",
+    bio: "Creative frontend developer and UI/UX specialist with 8+ years crafting beautiful, user-centered digital experiences with modern design principles.",
     imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya",
+    location: "TRM Roysambu, Nairobi",
     socials: {
       linkedin: "#",
       twitter: "#",
@@ -16,11 +16,11 @@ const teamMembers = [
     },
   },
   {
-    name: "Amara Okonkwo",
-    role: "IoT Solutions Director",
-    bio: "Hardware and software integration expert specializing in smart agriculture and urban planning IoT systems across East Africa.",
+    name: "Emmanuel Maina",
+    role: "Frontend & IoT Solutions Developer",
+    bio: "Versatile developer with 6+ years bridging frontend technologies with IoT hardware integration, creating seamless digital-physical experiences.",
     imageUrl: "https://images.unsplash.com/photo-1520466809213-7b9a56db9266?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya", 
+    location: "TRM Roysambu, Nairobi", 
     socials: {
       linkedin: "#",
       twitter: "#",
@@ -28,11 +28,11 @@ const teamMembers = [
     },
   },
   {
-    name: "Sekou Diallo",
-    role: "Mobile Innovation Lead", 
-    bio: "Mobile-first developer creating inclusive apps for emerging markets. Expert in offline-first architecture and accessibility.",
+    name: "Ian Warutere",
+    role: "Fullstack Developer", 
+    bio: "Complete stack engineer with 7+ years building robust applications from database to user interface, ensuring scalable and maintainable solutions.",
     imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya",
+    location: "TRM Roysambu, Nairobi",
     socials: {
       linkedin: "#",
       twitter: "#", 
@@ -44,7 +44,7 @@ const teamMembers = [
     role: "UX Research Specialist",
     bio: "Human-centered design expert focused on creating intuitive interfaces for diverse African communities and contexts.",
     imageUrl: "https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya",
+    location: "TRM Roysambu, Nairobi",
     socials: {
       linkedin: "#",
       twitter: "#",
@@ -56,7 +56,7 @@ const teamMembers = [
     role: "Blockchain Developer",
     bio: "Fintech specialist building decentralized solutions for financial inclusion and digital identity across the continent.",
     imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya",
+    location: "TRM Roysambu, Nairobi",
     socials: {
       linkedin: "#",
       twitter: "#",
@@ -68,7 +68,7 @@ const teamMembers = [
     role: "AI/ML Engineer",
     bio: "Machine learning expert developing AI solutions for healthcare, agriculture, and education tailored to African contexts.",
     imageUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop",
-    location: "Nairobi, Kenya",
+    location: "TRM Roysambu, Nairobi",
     socials: {
       linkedin: "#",
       twitter: "#",

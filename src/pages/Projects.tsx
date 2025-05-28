@@ -10,54 +10,108 @@ const projectCategories = [
     color: "from-blue-500 to-blue-700",
     projects: [
       {
-        title: "KenTrade Digital Platform",
-        description: "Revolutionary e-commerce platform connecting Kenyan farmers directly to global markets, featuring real-time pricing and logistics optimization.",
-        imageUrl: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["React", "Node.js", "MongoDB", "Payment Gateway"]
+        title: "Zenith East Africa",
+        description: "Building impactful businesses and brands across Africa. A comprehensive corporate website showcasing strategic consulting services with modern design principles.",
+        imageUrl: "/lovable-uploads/996bead4-2818-4cb2-a70b-4b580fdc7d8d.png",
+        technologies: ["React", "Next.js", "Tailwind CSS", "Modern Design"]
       },
       {
-        title: "Safari Health Portal",
-        description: "Comprehensive healthcare management system for rural clinics across East Africa, enabling telemedicine and patient record management.",
-        imageUrl: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["Next.js", "PostgreSQL", "WebRTC", "PWA"]
+        title: "Steeple Consultancy",
+        description: "Professional consulting services platform turning rough ideas into polished diamonds. Features responsive design and client portfolio showcase.",
+        imageUrl: "/lovable-uploads/cc22ec64-d261-4892-9173-10c3a22e6499.png",
+        technologies: ["React", "CSS3", "JavaScript", "Responsive Design"]
+      },
+      {
+        title: "MP Roysambu 2022",
+        description: "Political campaign website for Brown Munyoroku Kariuki featuring modern design, community engagement features, and donation integration.",
+        imageUrl: "/lovable-uploads/baa0c213-7b59-49e8-8d4c-bf25ee9412cc.png",
+        technologies: ["HTML5", "CSS3", "JavaScript", "Payment Integration"]
+      },
+      {
+        title: "Dable Properties",
+        description: "Real estate marketing platform featuring property listings, virtual tours, and integrated payment systems for land sales near KAG University.",
+        imageUrl: "/lovable-uploads/78d9727b-f752-479c-ad6a-04c010886f76.png",
+        technologies: ["React", "Property Management", "Payment Gateway", "Maps API"]
+      },
+      {
+        title: "Samsky Tours & Travel",
+        description: "International travel booking platform with destination packages, tour customization, and seamless booking experience for global travelers.",
+        imageUrl: "/lovable-uploads/acaeef24-f707-4295-b6f4-09bc502db4df.png",
+        technologies: ["React", "Booking System", "Payment Gateway", "Travel API"]
+      },
+      {
+        title: "SoftLife Hotel Advisor",
+        description: "Comprehensive hotel recommendation platform with location-based services, reviews, and booking integration for travelers.",
+        imageUrl: "/lovable-uploads/0d4fcf34-787f-4a10-a2ab-fc8296169b4e.png",
+        technologies: ["React", "Maps Integration", "Review System", "Location Services"]
       }
     ]
   },
   {
     icon: Smartphone,
-    title: "Mobile Development",
+    title: "Mobile & Web Applications",
     color: "from-green-500 to-green-700",
     projects: [
       {
-        title: "Mama Pesa Mobile Banking",
-        description: "Secure mobile banking solution designed for the unbanked population, featuring offline capabilities and USSD integration.",
-        imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["React Native", "Blockchain", "Offline-First", "USSD"]
+        title: "Mbuga Photography",
+        description: "Safari photography booking platform showcasing Kenyan wildlife photography services with portfolio galleries and booking system.",
+        imageUrl: "/lovable-uploads/4c26efd5-db31-41d4-b33e-55bf4d38f074.png",
+        technologies: ["React", "Gallery System", "Booking Integration", "Photography Portfolio"]
       },
       {
-        title: "Shule Smart Learning App",
-        description: "Interactive learning platform for Kenyan students with offline content sync and progress tracking for remote areas.",
-        imageUrl: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["Flutter", "Firebase", "AI Tutoring", "Offline Sync"]
+        title: "Netflix Clone",
+        description: "Full-featured streaming platform clone with user authentication, content management, and responsive design for entertainment content.",
+        imageUrl: "/lovable-uploads/2cb903e3-a11a-4629-b922-06c875c24707.png",
+        technologies: ["React", "Authentication", "Content Management", "Streaming"]
+      },
+      {
+        title: "E-commerce Platform",
+        description: "Modern e-commerce solution featuring product catalogs, shopping cart, payment integration, and inventory management system.",
+        imageUrl: "/lovable-uploads/8d9cb61b-2269-47f0-9100-f36eb22b2cca.png",
+        technologies: ["React", "E-commerce", "Payment Gateway", "Inventory Management"]
+      },
+      {
+        title: "Girlskate Nairobi",
+        description: "Community platform for skateboarding enthusiasts in Nairobi, featuring event management and community engagement tools.",
+        imageUrl: "/lovable-uploads/acbb5bb2-0e01-4003-828a-52ff92d92005.png",
+        technologies: ["React", "Community Features", "Event Management", "Social Platform"]
       }
     ]
   },
   {
     icon: Wifi,
-    title: "IoT Solutions",
+    title: "Blockchain & Advanced Tech",
     color: "from-purple-500 to-purple-700",
     projects: [
       {
-        title: "Smart Irrigation Network",
-        description: "IoT-powered irrigation system for smallholder farmers, optimizing water usage through soil sensors and weather data integration.",
-        imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["Arduino", "LoRaWAN", "Machine Learning", "Solar Power"]
+        title: "KibokoDAO Web3 Platform",
+        description: "Decentralized platform representing African communities in global Web3 ecosystem, featuring DAO governance and community collaboration tools.",
+        imageUrl: "/lovable-uploads/6b7f7b4a-8720-4fd1-b6a9-bdc8264b2168.png",
+        technologies: ["Web3", "Blockchain", "DAO", "Smart Contracts"]
       },
       {
-        title: "Urban Traffic Intelligence",
-        description: "Smart traffic management system for Nairobi, using IoT sensors and AI to optimize traffic flow and reduce congestion.",
-        imageUrl: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200&auto=format&fit=crop",
-        technologies: ["Raspberry Pi", "Computer Vision", "Edge Computing", "5G"]
+        title: "Potara.io Metaverse",
+        description: "Web3 metaverse project featuring NFT integration, virtual worlds, and decentralized gaming experiences.",
+        imageUrl: "/lovable-uploads/d13778ae-2862-4c01-b279-81af39a7ac64.png",
+        technologies: ["Metaverse", "NFTs", "Web3", "Virtual Reality"]
+      },
+      {
+        title: "Capped Range Gaming",
+        description: "NFT gaming platform with virtual poker games, tournament features, and cryptocurrency integration for competitive gaming.",
+        imageUrl: "/lovable-uploads/722cbbc4-a453-4eb1-a4f4-10aa6a7955b2.png",
+        technologies: ["NFT Gaming", "Blockchain", "Cryptocurrency", "Tournament System"]
+      },
+      {
+        title: "Krypt Wallet",
+        description: "Secure cryptocurrency wallet application with multi-chain support, transaction history, and advanced security features.",
+        imageUrl: "/lovable-uploads/268bacb8-9468-4d45-baab-1f0f382ae144.png",
+        technologies: ["Cryptocurrency", "Wallet", "Security", "Multi-chain"]
+      },
+      {
+        title: "Carbon Corp D-App",
+        description: "Decentralized application for carbon credit trading and environmental impact tracking with blockchain verification.",
+        imageUrl: "/lovable-uploads/b14740b6-db26-42bf-818f-2c2d4addac1d.png",
+        technologies: ["DApp", "Carbon Credits", "Environmental Tech", "Blockchain"]
       }
     ]
   }
