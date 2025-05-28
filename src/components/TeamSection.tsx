@@ -1,36 +1,39 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Twitter, Github } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Eleonora Dubois",
-    role: "Lead UI/UX Architect",
-    bio: "Eleonora orchestrates digital symphonies, transforming complex challenges into intuitive and beautiful user experiences. Her eye for detail is unmatched.",
-    imageUrl: "https://images.unsplash.com/photo-1520466809213-7b9a56db9266?q=80&w=800&auto=format&fit=crop", // Placeholder image
+    name: "Kwame Asante",
+    role: "Lead Software Architect",
+    bio: "Visionary architect with expertise in blockchain and AI solutions. Leading Africa's digital transformation with innovative system designs.",
+    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",
       twitter: "#",
+      github: "#"
     },
   },
   {
-    name: "Julian Sinclair",
-    role: "Principal Software Engineer",
-    bio: "With a passion for elegant code and robust systems, Julian crafts the backbone of our digital masterpieces, ensuring performance and scalability.",
-    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop", // Placeholder image
+    name: "Amara Okonkwo",
+    role: "IoT Solutions Director",
+    bio: "Hardware and software integration expert specializing in smart agriculture and urban planning systems across East Africa.",
+    imageUrl: "https://images.unsplash.com/photo-1520466809213-7b9a56db9266?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",
       twitter: "#",
+      github: "#"
     },
   },
   {
-    name: "Seraphina Bellwether",
-    role: "Creative Director",
-    bio: "Seraphina brings visions to life with a unique blend of artistic flair and strategic insight, ensuring every project resonates with luxury and purpose.",
-    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop", // Placeholder image
+    name: "Sekou Diallo",
+    role: "Mobile Innovation Lead",
+    bio: "Mobile-first developer creating inclusive apps for emerging markets with expertise in offline-first architecture and accessibility.",
+    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop",
     socials: {
       linkedin: "#",
       twitter: "#",
+      github: "#"
     },
   },
 ];
@@ -40,9 +43,9 @@ const TeamSection = () => {
     <section className="py-16 md:py-24 bg-background">
       <div className="container max-w-screen-xl mx-auto px-6">
         <div className="text-center mb-12 md:mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-brand-deep-blue mb-4">Meet Our Artisans</h2>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold text-brand-deep-blue mb-4">Meet Our Innovators</h2>
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto">
-            The visionary minds dedicated to crafting your digital legacy with passion and precision.
+            Futuristic African developers crafting tomorrow's technology from the heart of Nairobi.
           </p>
         </div>
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
@@ -75,11 +78,24 @@ const TeamSection = () => {
                         <Twitter size={20} />
                       </a>
                     )}
+                    {member.socials.github && (
+                      <a href={member.socials.github} target="_blank" rel="noopener noreferrer" className="text-brand-deep-blue/70 hover:text-brand-gold transition-colors">
+                        <Github size={20} />
+                      </a>
+                    )}
                   </div>
                 </CardContent>
               </Card>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+          <a 
+            href="/team" 
+            className="inline-block bg-brand-gold text-brand-deep-blue hover:bg-yellow-500 text-lg px-8 py-4 rounded-md font-medium transition-colors duration-300"
+          >
+            Meet the Full Team
+          </a>
         </div>
       </div>
     </section>
