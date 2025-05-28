@@ -2,6 +2,7 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
@@ -28,6 +29,12 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+  const navigate = useNavigate();
+
+  const handleExploreProjects = () => {
+    navigate('/projects');
+  };
+
   return (
     <section className="py-16 md:py-24 bg-background">
       <div className="container max-w-screen-xl mx-auto px-6">
@@ -67,7 +74,12 @@ const ProjectsSection = () => {
           ))}
         </div>
         <div className="text-center mt-12 md:mt-16 animate-fade-in-up" style={{ animationDelay: `${projects.length * 0.2}s` }}>
-          <Button size="lg" variant="outline" className="text-brand-gold border-brand-gold hover:bg-brand-gold hover:text-brand-deep-blue text-lg px-8 py-6 group">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="text-brand-gold border-brand-gold hover:bg-brand-gold hover:text-brand-deep-blue text-lg px-8 py-6 group"
+            onClick={handleExploreProjects}
+          >
             Explore All Projects <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
@@ -77,4 +89,3 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
-
