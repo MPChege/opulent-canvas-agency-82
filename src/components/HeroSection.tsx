@@ -1,8 +1,15 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  const handleDiscoverCraft = () => {
+    navigate('/services');
+  };
+
   return (
     <section 
       className="relative py-20 md:py-32 lg:py-48 bg-cover bg-center animate-fade-in-up"
@@ -17,7 +24,11 @@ const HeroSection = () => {
           We design and develop bespoke software solutions that blend cutting-edge technology with timeless sophistication.
         </p>
         <div className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-          <Button size="lg" className="bg-brand-gold text-brand-deep-blue hover:bg-yellow-500 text-lg px-8 py-6 group">
+          <Button 
+            size="lg" 
+            className="bg-brand-gold text-brand-deep-blue hover:bg-yellow-500 text-lg px-8 py-6 group"
+            onClick={handleDiscoverCraft}
+          >
             Discover Our Craft <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
